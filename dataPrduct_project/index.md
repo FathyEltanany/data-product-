@@ -34,9 +34,12 @@ p<-plot_ly(x = ~dataX, y = ~dataY, type = "scatter")%>%
                 xaxis = list(title  = "x axis"),
                 yaxis = list(title  = "y axis ")
                 )
-htmlwidgets::saveWidget(as.widget(p), file = "demo.html")
 ```
+
+---
+
 <iframe src="demo.html" style="position:absolute;height:100%;width:100%"></iframe>
+
 
 ---
 ## plot after changes
@@ -45,16 +48,18 @@ htmlwidgets::saveWidget(as.widget(p), file = "demo.html")
 dataX <- runif(500)
 dataY <- runif(500)
 
-p<-plot_ly(x = ~dataX, y = ~dataY, type = "scatter")%>%
+p2<-plot_ly(x = ~dataX, y = ~dataY, type = "scatter")%>%
         
         layout(
                 xaxis = list(title  = "mpg"),
                 yaxis = list(title  = "hp ")
                 )
-
-htmlwidgets::saveWidget(as.widget(p), file = "demo.html")
 ```
-<iframe src="demo.html" style="position:absolute;height:100%;width:100%"></iframe>
+
+
+---
+
+<iframe src="demo2.html" style="position:absolute;height:100%;width:100%"></iframe>
 
 ---
 ## conclusion

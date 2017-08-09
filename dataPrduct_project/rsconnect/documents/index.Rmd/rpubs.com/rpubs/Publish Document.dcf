@@ -1,0 +1,8 @@
+name: Publish Document
+title:
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/298194/307e923624a24e07935c9f901e3395c5
+bundleId: https://api.rpubs.com/api/v1/document/298194/307e923624a24e07935c9f901e3395c5
+url: http://rpubs.com/fathyeltanany/298194
+when: 1502319445.94122

@@ -69,16 +69,21 @@ p&lt;-plot_ly(x = ~dataX, y = ~dataY, type = &quot;scatter&quot;)%&gt;%
                 xaxis = list(title  = &quot;x axis&quot;),
                 yaxis = list(title  = &quot;y axis &quot;)
                 )
-htmlwidgets::saveWidget(as.widget(p), file = &quot;demo.html&quot;)
 </code></pre>
-
-<iframe src="demo.html" style="position:absolute;height:100%;width:100%"></iframe>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-3" style="background:;">
+  <article data-timings="">
+    <iframe src="demo.html" style="position:absolute;height:100%;width:100%"></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
   <hgroup>
     <h2>plot after changes</h2>
   </hgroup>
@@ -86,23 +91,27 @@ htmlwidgets::saveWidget(as.widget(p), file = &quot;demo.html&quot;)
     <pre><code class="r">dataX &lt;- runif(500)
 dataY &lt;- runif(500)
 
-p&lt;-plot_ly(x = ~dataX, y = ~dataY, type = &quot;scatter&quot;)%&gt;%
+p2&lt;-plot_ly(x = ~dataX, y = ~dataY, type = &quot;scatter&quot;)%&gt;%
 
         layout(
                 xaxis = list(title  = &quot;mpg&quot;),
                 yaxis = list(title  = &quot;hp &quot;)
                 )
-
-htmlwidgets::saveWidget(as.widget(p), file = &quot;demo.html&quot;)
 </code></pre>
-
-<iframe src="demo.html" style="position:absolute;height:100%;width:100%"></iframe>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-4" style="background:;">
+<slide class="" id="slide-5" style="background:;">
+  <article data-timings="">
+    <iframe src="demo2.html" style="position:absolute;height:100%;width:100%"></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
   <hgroup>
     <h2>conclusion</h2>
   </hgroup>
@@ -116,7 +125,7 @@ htmlwidgets::saveWidget(as.widget(p), file = &quot;demo.html&quot;)
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-5" style="background:;">
+<slide class="" id="slide-7" style="background:;">
   <hgroup>
     <h2>Thanks </h2>
   </hgroup>
@@ -144,20 +153,32 @@ htmlwidgets::saveWidget(as.widget(p), file = &quot;demo.html&quot;)
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='plot after changes'>
+        data-slide=3 title='NA'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='conclusion'>
+        data-slide=4 title='plot after changes'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Thanks '>
+        data-slide=5 title='NA'>
          5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='conclusion'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Thanks '>
+         7
       </a>
     </li>
   </ul>
